@@ -1,0 +1,17 @@
+<modal
+        #modal
+        (onClose)="onClose()"
+        (onOpen)="onOpen()"
+        [hideCloseButton]="true"
+        modalClass="modal-lg">
+    <modal-header>
+        <h1>Modal header</h1>
+    </modal-header>
+    <modal-content>
+        Hello Modal! There will be some inputs...
+    </modal-content>
+    <modal-footer>
+        <button class="btn btn-primary" (click)="submit()">Update</button>
+        <button class="btn btn-primary" (click)="cancel()">Cancel</button>
+    </modal-footer>
+</modal>
